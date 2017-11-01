@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
  
-    $email_to = "floyd.schramm@mgx.de";
+    $email_to = "my-email@gmx.de";
     $email_subject = "Website Support";
  
     function died($error) {
@@ -21,9 +21,9 @@ if(isset($_POST['email'])) {
  
      
  
-    $name = $_POST['name']; // required
-    $email = $_POST['email']; // required
-    $message = $_POST['message']; // required
+    $name = $_POST['name']; 
+    $email = $_POST['email']; 
+    $message = $_POST['message']; 
  
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
