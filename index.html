@@ -1,59 +1,70 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<title>Test - Home</title>
+	<title>3D Maker Cave</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-
 <body>
-	<div id="wrapper">
-		<header><img src="bilder/LOGO.png" alt="LOGO"></header>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="ueber.html">Über</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-		</nav>
+	<header>
+		<img src="bilder/logo.png" alt="LOGO">
+	</header>
 
 
 
 
-		<section>
-			<div class="article">
-				<a href="#"><img src="bilder/BILD.png" alt="BILD"></a>
-				<a href="#">Artikel Nummer 1</a>
-				<p>Jedes Jahr Ende Juli wird im so genannten alternativen Viertel meiner Stadt ordentlich gefeiert. </p>
-			<div>
-			<div class="article">
-				<img src="bilder/BILD.png" alt="BILD">
-				<a href="#">Artikel Nummer 2</a>
-				<p>Jedes Jahr Ende Juli wird im so genannten alternativen Viertel meiner Stadt ordentlich gefeiert. </p>
-			<div>
+	<section></section>
 
+	<aside>
+		<p>Contact</p>
 
+		<form name="contactform" method="post" action="email_submit.php">
 
+		<table width="400px">
 
-		</section>
+		<tr>
+		 <td valign="top">
+ 		 <label for="name">Name *</label>
+		 </td>
+ 		<td valign="top">
+		  <input  type="text" name="first_name" maxlength="50" size="25">
+		 </td>
+		</tr>
+	
+		<tr>
+		 <td valign="top">
+		<label for="email">Email Address *</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" name="email" maxlength="80" size="25">
+ 		</td>
+		</tr>
+	
+		<tr>
+		 <td valign="top">
+		 <label for="message">Message *</label>
+		 </td>
+		 <td valign="top">
+		  <textarea  name="comments" maxlength="1000" cols="26" rows="7"></textarea>
+		 </td>
+		</tr>
 
-		<aside></aside>
+		<tr>
+		 <td colspan="2" style="text-align:center">
+ 		 <input id="button" type="submit" value="Submit"> 
+		 </td>
+		</tr>
 
-		<footer>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="ueber.html">Über</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-			<p><a href="#">&copy; 2017 Floyd</a></p>
-		</footer>
-	</div>
+		</table>
+
+		</form>
+
+	</aside>
+
+	<footer></footer>
 
 </body>
-
-
 
 </html>

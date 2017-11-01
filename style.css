@@ -1,112 +1,72 @@
-#wrapper {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 header {
-	height: 90px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center
-}
-
-nav {
-	text-align: center;
-}
-
-nav ul {
-	list-style-type: none;
-}
-
-nav li {
-	display: inline;
-	margin-right: 40px;
-}
-
-a {
-	color: #2E3030;
-	text-decoration: none;
-	font-family: arial, sans-serif;
-	font-size: 20px;
-}	
-
-section {
-	width: 600px;
-	height: 600px;
-	float: left;
-
-	padding: 20px;
-	margin-top: 15px;
-	margin-right: 15px;
-	
-	background: #f2f2f2;
-	border: 1px solid #DEDCD9;
+	background: rgb(150,150,150);
+	border: 1px solid #202222;
 	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 15px;
 }
 
+header img {
+	margin-left: 20px;
+}
 
 aside {
-	width: 258px;
-	height: 600px;
+	width: 400px;
+	height: 700px;
+	background: rgb(150,150,150);
+	border: 1px solid #202222;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right: 50px;
 	float: right;
-
-	padding: 20px;
-	margin-top: 15px;
-	margin-bottom: 20px;
-
-	background: #f2f2f2;
-	border: 1px solid #DEDCD9;
-	border-radius: 5px;
 }
 
-footer {
-	background: #f2f2f2;
-	border: 1px solid #DEDCD9;
-	border-radius: 5px;
-	clear: both;
-}
-
-footer ul {
-	float: left;
-	list-style: none;
-	padding: 0px;
-	margin: 15px;
-}
-
-footer li {
-	display: inline;
-	margin-right: 10px;
-
-}
-
-footer p {
-	text-align: right;
-	margin-right: 20px;
-}
-
-.article {
-	height: 100px;
-	margin-top: 15px;
-}
-
-.article img {
-	float: left;
-	padding: 5px;
-	margin-right: 10px;
-	border: 1px solid #DEDCD9;
-	background-color: #f2f2f2;
-	border-radius: 10px;
-}
-
-.article a {
-	font-size: 25px;
+aside p {
+	font-color: #202222;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 15px;
 	font-weight: bold;
-	margin-left: 5px;
 }
 
-.article p {
+aside label {
+	margin-left: 15px;
 	font-size: 20px;
-	color: #808080;
+	font-color: #202222;
+	font-weight: bold;
+}
 
+aside input {
+	margin-top: 5px;
+}
+
+aside textarea {
+	margin-top: 5px;
+}
+
+#button {
+	margin-top: 10px;
+	margin-right: 24px;
+	text-align: center;
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	font-color: #202222;
+}
+
+
+
+section {
+	width: 1367px;
+	height: 700px;
+	margin-left: 50px;
+	margin-top: 20px;
+	background: rgb(150,150,150);
+	border: 1px solid #202222;
+	border-radius: 5px;
+	float: left;
 }
